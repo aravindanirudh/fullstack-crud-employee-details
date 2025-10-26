@@ -1,4 +1,4 @@
-# Employee Details CRUD — Fullstack App
+# Employee Details CRUD - Fullstack App
 A simple fullstack CRUD application for managing employee details using React (Vite) on the frontend, Express on the backend, and PostgreSQL as the database.
 - Tutorial referenced: https://youtu.be/mk5EIPu21y0 from [JavaScript Unleashed](https://www.youtube.com/@JavaScriptUnleashed)
 - [.env](backend/.env) file has been pushed with intent for educational purposes
@@ -102,11 +102,11 @@ A simple fullstack CRUD application for managing employee details using React (V
 ## API Endpoints
 - The backend routes are defined in [backend/routes/employee.js](backend/routes/employee.js). The controller logic lives in [backend/controllers/employee.js](backend/controllers/employee.js)
 - Typical endpoints (examples; check the route file for exact paths):
-  - GET /employees — list employees
-  - GET /employees/:id — get an employee by id
-  - POST /employees — create employee
-  - PUT /employees/:id — update employee
-  - DELETE /employees/:id — delete employee
+  - GET /employees - list employees
+  - GET /employees/:id - get an employee by id
+  - POST /employees - create employee
+  - PUT /employees/:id - update employee
+  - DELETE /employees/:id - delete employee
 
 ## Error handling
 - Centralized error helper/middleware: [backend/utils/error.js](backend/utils/error.js)
